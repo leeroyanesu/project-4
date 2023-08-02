@@ -1,0 +1,5 @@
+Implementing pagination: with the current limitations of Firestore being able to pull around 500 in a single query.
+Optimizing the batch size: With a larger batch sizes, there is a need to optimise the batch size so as to reduce overhead due to high numbers of queries.
+Monitoring performance: For improvements to occur, there is a need to measure resource utilization and execution time inorder to pin point areas that need improvement.
+Better error handling methods.
+Cache accessed data: avoiding duplication of queries which may add to the workload, caching frequently used data can be helpful using local cache mechanisms.
